@@ -7,6 +7,7 @@ AI PPT Studio, Phase 1. Production rules and the per-project directory map are i
 - [SOP 1.0, automated production](docs/sop-1.0-automated-production.md)
 - [SOP 1.1, client projects](docs/sop-1.1-client-projects.md)
 - [Directory layout](docs/directory-layout.md)
+- [PPT order handbook](docs/ppt-order-handbook.md)
 
 Create a project directory:
 
