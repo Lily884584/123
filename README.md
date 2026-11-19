@@ -28,11 +28,14 @@ python -m aippt.scan --project projects/<Client>_<Topic>_<YYYYMMDD>
 python -m aippt.parse --project projects/<Client>_<Topic>_<YYYYMMDD>
 python -m aippt.requirements --project projects/<Client>_<Topic>_<YYYYMMDD>
 python -m aippt.research --project projects/<Client>_<Topic>_<YYYYMMDD>
+python -m aippt.design --project projects/<Client>_<Topic>_<YYYYMMDD>
 ```
 
 Requirement analysis writes `00_project_info/requirement_analysis.md`. It runs offline by default. Optional model calls use `AIPPT_MODEL_BASE_URL`, `AIPPT_MODEL_API_KEY`, and `AIPPT_MODEL_NAME`.
 
 Template research writes `03_research/template_candidates/` plus license notes. Default is offline seed search; add `--network` only to fetch public official search pages. It does not bypass login or paywalls, and unverified licenses are not commercial-delivery ready.
+
+Design analysis reads local PPTX under `01_input/reference_templates` (and customer PPTX) and writes a unified Design System to `04_design/`.
 
 Install parser dependencies with `pip install -r requirements.txt`.
 
