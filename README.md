@@ -2,7 +2,7 @@
 
 This heading was the original stub: the repository used to contain only this line.
 
-AI PPT Studio, Phase 1. Production rules and the per-project directory map are in the SOP docs. Each client gets one folder, `projects/<Client>_<Topic>_<YYYYMMDD>/`, from `00_project_info` through `09_reports`. Shared assets live only in `templates/public/`, and only when a template is explicitly public.
+AI PPT Studio. Production rules and the per-project directory map are in the SOP docs. Each client gets one folder, `projects/<Client>_<Topic>_<YYYYMMDD>/`, from `00_project_info` through `09_reports`. Shared assets live only in `templates/public/`, and only when a template is explicitly public.
 
 - [SOP 1.0, automated production](docs/sop-1.0-automated-production.md)
 - [SOP 1.1, client projects](docs/sop-1.1-client-projects.md)
@@ -15,7 +15,22 @@ Create a project directory:
 python -m aippt.scaffold --client <Client> --topic <Topic>
 ```
 
-Run the scaffold test:
+Put files in that project's `01_input/` folders, then scan and parse:
+
+```bash
+python -m aippt.ingest --project projects/<Client>_<Topic>_<YYYYMMDD>
+```
+
+Or run the stages alone:
+
+```bash
+python -m aippt.scan --project projects/<Client>_<Topic>_<YYYYMMDD>
+python -m aippt.parse --project projects/<Client>_<Topic>_<YYYYMMDD>
+```
+
+Install parser dependencies with `pip install -r requirements.txt`.
+
+Run tests:
 
 ```bash
 python -m unittest discover -s tests -t . -v
