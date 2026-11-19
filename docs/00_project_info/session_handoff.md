@@ -22,9 +22,9 @@ AI PPT Studio 已完成 Phase 1–7（含 B/C 双引擎中间稿生成）；**�
 | 4 | 模板搜索与授权记录 | `cursor/phase-4-template-research-29ae` | https://github.com/Lily884584/123/pull/5 → Phase3 |
 | 5 | PPTX 模板解析与设计分析 | `cursor/phase-5-template-design-29ae` | https://github.com/Lily884584/123/pull/6 → Phase4 |
 | 6 | PPT 大纲与页面内容 | `cursor/phase-6-ppt-outline-29ae` | https://github.com/Lily884584/123/pull/7 → Phase5 |
-| 7 | B/C 双引擎 PPT 生成 | `cursor/phase-7-dual-engine-039d` | （本 PR → Phase6，`stack_on: 7`） |
+| 7 | B/C 双引擎 PPT 生成 | `cursor/phase-7-dual-engine-039d` | https://github.com/Lily884584/123/pull/8 → Phase6 |
 
-Stack 顺序（底→顶）：`#1 → #2 → #4 → #5 → #6 → #7 → Phase7`。
+Stack 顺序（底→顶）：`#1 → #2 → #4 → #5 → #6 → #7 → #8`。
 
 ## 待办 Phase（按 SOP 1.0）
 
