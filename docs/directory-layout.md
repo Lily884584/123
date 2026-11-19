@@ -32,6 +32,7 @@ API keys and passwords stay in environment variables. `project_info.json`, `proj
 | `workspace/design_system/layouts.json` | `<project>/04_design/layouts.json` |
 | `workspace/design_system/template_rules.md` | `<project>/04_design/design_system/template_rules.md` |
 | `workspace/outlines/ppt_outline.md` | `<project>/05_content/ppt_outline.md` |
+| Dual-engine intermediate PPTX (Phase 7) | `<project>/05_content/generated/` (`engine_b.pptx` / `engine_c.pptx`, `generation_report.md`) |
 | `output/proposal_A/` | `<project>/06_proposals/proposal_A/` |
 | `output/proposal_A/sample.pptx` | `<project>/06_proposals/proposal_A/sample.pptx` |
 | `output/proposal_A/preview/` | `<project>/06_proposals/proposal_A/preview/` |
